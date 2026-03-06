@@ -1,4 +1,4 @@
-FROM openjdk:21
+FROM eclipse-temurin:21-jdk
 EXPOSE 8080
-ADD target/demo_Devops.jar demo_Devops.jar
-ENTRYPOINT ["java","-jar","/demo_Devops.jar"]
+ADD target/demo_devops.jar demo_devops.jar
+ENTRYPOINT ["java","-jar","/demo_devops.jar"]
