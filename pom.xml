@@ -26,7 +26,7 @@
             <configuration>
                 <archive>
                     <manifest>
-                        <mainClass>com.demo_devops.main</mainClass>
+                        <mainClass>com.demo_devops.Democlass</mainClass>
                     </manifest>
                 </archive>
             </configuration>
